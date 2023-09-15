@@ -1,0 +1,160 @@
+body {
+    background-color: #112;
+}
+
+.title {
+    color:white;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+}
+
+.loans {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    width: 70rem;
+    height: 15rem;
+    background-color: #223;
+    border: white 2px solid;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+/* Apply Directory */
+.apply {
+    background-color: #112;
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 5px;
+    height: 10rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin: 1rem;
+    flex-direction: column;
+}
+
+.applyparagraph {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.applylink {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    padding: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.applylink:hover,
+.applylink:focus,
+.applylink:active {
+    color:antiquewhite;
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.status {
+    background-color: #112;
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 5px;
+    height: 10rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin: 1rem;
+    flex-direction: column;
+}
+
+.statusparagrah {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statuslink {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    padding: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.statuslink:hover,
+.statuslink:focus,
+.statuslink:active {
+    color:antiquewhite;
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.loanhelp {
+    background-color: #112;
+    border: 2px solid white;
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 5px;
+    height: 10rem;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin: 1rem;
+    flex-direction: column;
+}
+
+.helpparagraph {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.helplink {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    padding: 5px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.helplink:hover,
+.helplink:focus,
+.helplink:active {
+    color:antiquewhite;
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
